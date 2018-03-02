@@ -1,0 +1,64 @@
+{
+    "name": "reveal",
+    "displayName": "Reveal",
+    "description": "Show reveal in sidebar/explorer on editor title",
+    "version": "0.0.1",
+    "publisher": "smulyono",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:reveal.file"
+    ],
+    "main": "./src/index",
+    "icon": "icons/128_icon.png",
+    "contributes": {
+        "configuration": {
+            "title": "Reveal configuration",
+            "properties": {
+                "reveal.active": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Activate reveal extensions"
+                }
+            }
+        },
+        "commands": [
+            {
+                "command": "reveal.file",
+                "title": "Reval file in sidebar",
+                "icon": {
+                    "dark": "./icons/16_icon.png",
+                    "light": "./icons/16_icon_light.png"
+                }
+            }
+        ],
+        "menus": {
+            "editor/title": [
+                {
+                    "command": "reveal.file",
+                    "group": "navigation"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "@types/mocha": "^2.2.42",
+        "@types/node": "^7.0.43",
+        "eslint": "^4.11.0",
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6"
+    },
+    "dependencies": {
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "babel-register": "^6.26.0"
+    }
+}
