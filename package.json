@@ -4,6 +4,10 @@
     "description": "Show reveal in sidebar/explorer on editor title",
     "version": "0.0.2",
     "publisher": "smulyono",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/smulyono/reveal-file-ext"
+    },
     "engines": {
         "vscode": "^1.20.0"
     },
