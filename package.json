@@ -2,7 +2,7 @@
     "name": "reveal",
     "displayName": "Reveal",
     "description": "Show reveal in sidebar/explorer on editor title",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "smulyono",
     "engines": {
         "vscode": "^1.20.0"
@@ -40,7 +40,8 @@
             "editor/title": [
                 {
                     "command": "reveal.file",
-                    "group": "navigation"
+                    "group": "navigation",
+                    "when": "config.reveal.active"
                 }
             ]
         }
