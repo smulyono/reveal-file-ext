@@ -3,6 +3,7 @@
 
 ## Features
 
+* `Reveal` current open files into sidebar
 
 ## Requirements
 
