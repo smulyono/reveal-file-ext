@@ -3,7 +3,7 @@
 
 import vscode from "vscode";
 
-export function activate(context) {
+exports.activate = (context) => {
   let revealMe = vscode.commands.registerCommand("reveal.file", () => {
     vscode.commands.executeCommand(
       "workbench.files.action.showActiveFileInExplorer"
@@ -12,6 +12,6 @@ export function activate(context) {
   context.subscriptions.push(revealMe);
 }
 
-export function deactivate() {
+exports.deactivate = () => {
   console.log("Reveal extension disabled");
 }

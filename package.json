@@ -2,7 +2,7 @@
     "name": "reveal",
     "displayName": "Reveal",
     "description": "Show reveal in sidebar/explorer on editor title",
-    "version": "1.1.0",
+    "version": "1.2.3",
     "publisher": "smulyono",
     "repository": {
         "type": "git",
@@ -33,7 +33,7 @@
         "commands": [
             {
                 "command": "reveal.file",
-                "title": "Reval file in sidebar",
+                "title": "Reveal file in sidebar",
                 "icon": {
                     "dark": "./icons/16_icon.png",
                     "light": "./icons/16_icon_light.png"
@@ -57,12 +57,13 @@
     "devDependencies": {
         "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.43",
-        "babel-preset-env": "^1.6.1",
-        "babel-preset-stage-0": "^6.24.1",
-        "babel-register": "^6.26.0",
         "eslint": "^4.11.0",
         "typescript": "^2.6.1",
         "vscode": "^1.1.6"
     },
-    "dependencies": {}
+    "dependencies": {
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "babel-register": "^6.26.0"
+    }
 }
