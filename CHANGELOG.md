@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.2.4
+
+- Remove `babel-register` as runtime dependency and do babel compiler during packaging. 
+
 ## 0.0.2
 
 - Fix to only show the `reveal` icon when configuration `reveal.active` is true.

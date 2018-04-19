@@ -1,5 +1,3 @@
-require("babel-register");
-
 var Extension = require("./extension.js");
 
 exports.activate = Extension.activate;
