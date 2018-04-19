@@ -10,6 +10,7 @@ exports.activate = (context) => {
     );
   });
   context.subscriptions.push(revealMe);
+  console.info("Reveal extensions activated!");
 }
 
 exports.deactivate = () => {

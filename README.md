@@ -1,11 +1,18 @@
 # Reveal README
 
+VSCode extensions for showing icon shortcuts to reveal open files into sidebar. 
+
+Internally will call standard VScode command __"workbench.files.action.showActiveFileInExplorer"__.
+
+For development, the extensions is using babel to do transpiling with output folder as _target_.
+
 
 ## Features
 
 * `Reveal` current open files into sidebar
 
 ## Requirements
+
 
 
 ## Known Issues

@@ -12,7 +12,12 @@
             "runtimeExecutable": "${execPath}",
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
-            ]
+            ],
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceFolder}/target/*.js"
+            ],            
+            "preLaunchTask": "npm-watch",
         },
         {
             "name": "Extension Tests",

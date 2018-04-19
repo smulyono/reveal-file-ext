@@ -1,6 +1,4 @@
-require("babel-register");
+import {activate, deactivate } from './extension';
 
-var Extension = require("./extension.js");
-
-exports.activate = Extension.activate;
-exports.deactivate = Extension.deactivate;
+exports.activate = activate;
+exports.deactivate = deactivate;
