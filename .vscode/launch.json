@@ -13,7 +13,11 @@
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
             ],
-            "preLaunchTask": "npm: watch"
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceFolder}/target/*.js"
+            ],            
+            "preLaunchTask": "npm-watch",
         },
         {
             "name": "Extension Tests",

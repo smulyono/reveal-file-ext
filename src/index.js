@@ -1,4 +1,4 @@
-var Extension = require("./extension.js");
+import {activate, deactivate } from './extension';
 
-exports.activate = Extension.activate;
-exports.deactivate = Extension.deactivate;
+exports.activate = activate;
+exports.deactivate = deactivate;

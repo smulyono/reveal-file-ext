@@ -4,15 +4,33 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "npm-watch",
             "type": "npm",
             "script": "watch",
             "isBackground": true,
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
             "presentation": {
-                "reveal": "never",
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher":{
+                "fileLocation":["relative", "${workspaceFolder}"],
+                "pattern":[
+                    {
+                        "regexp": "^(.*):\\s+(.*):\\s+(.*)\\((\\d+):(\\d+)\\)$",
+                        "file": 2,
+                        "message": 3,
+                        "line": 4,
+                        "column": 5,
+                        "loop": true
+                    }
+                ],
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "^(.*)\\s+\\-\\>\\s+(.*)$",
+                    "endsPattern": ".*"
+                }
             }
         }
     ]

@@ -7,3 +7,5 @@ vsc-extension-quickstart.md
 .eslintrc.json
 src/*.js
 .babelrc
+node_modules
+yarn.lock
