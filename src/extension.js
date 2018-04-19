@@ -8,7 +8,6 @@ export function activate(context) {
     vscode.commands.executeCommand(
       "workbench.files.action.showActiveFileInExplorer"
     );
-    console.log("reveal file");
   });
   context.subscriptions.push(revealMe);
   console.info("Reveal extensions activated!");

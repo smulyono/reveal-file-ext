@@ -1,8 +1,9 @@
 # Change Log
 
-## 1.2.4
+## 1.2.7
 
 - Remove `babel-register` as runtime dependency and do babel compiler during packaging. 
+- Added babel compiler tasks for development.
 
 ## 0.0.2
 
