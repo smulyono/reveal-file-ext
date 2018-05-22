@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.2.8 
+- Remove annoying "activated" output #2
+
+
 ## 1.2.7
 
 - Remove `babel-register` as runtime dependency and do babel compiler during packaging. 
