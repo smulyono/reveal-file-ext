@@ -46,7 +46,7 @@
                 {
                     "command": "reveal.file",
                     "group": "navigation",
-                    "when": "config.reveal.active"
+                    "when": "config.reveal.active && !inSettingsEditor && !inKeybindings && resourceScheme != 'untitled'"
                 }
             ]
         }
