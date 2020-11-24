@@ -2,7 +2,7 @@
     "name": "reveal",
     "displayName": "Reveal",
     "description": "Show reveal in sidebar/explorer on editor title",
-    "version": "1.2.7",
+    "version": "1.2.8",
     "publisher": "smulyono",
     "repository": {
         "type": "git",
