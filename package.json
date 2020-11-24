@@ -36,8 +36,8 @@
                 "command": "reveal.file",
                 "title": "Reveal file in sidebar",
                 "icon": {
-                    "dark": "./icons/16_icon.png",
-                    "light": "./icons/16_icon_light.png"
+                    "dark": "./icons/icon-dark.svg",
+                    "light": "./icons/icon-dark.svg"
                 }
             }
         ],
