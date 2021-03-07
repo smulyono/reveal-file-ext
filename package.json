@@ -2,7 +2,7 @@
     "name": "reveal",
     "displayName": "Reveal",
     "description": "Show reveal in sidebar/explorer on editor title",
-    "version": "1.2.7",
+    "version": "1.2.8",
     "publisher": "smulyono",
     "repository": {
         "type": "git",
@@ -36,8 +36,8 @@
                 "command": "reveal.file",
                 "title": "Reveal file in sidebar",
                 "icon": {
-                    "dark": "./icons/16_icon.png",
-                    "light": "./icons/16_icon_light.png"
+                    "dark": "./icons/icon-dark.svg",
+                    "light": "./icons/icon-dark.svg"
                 }
             }
         ],
